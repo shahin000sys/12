@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import fetch from "node-fetch";
 import * as cheerio from "cheerio";
 import TelegramBot from "node-telegram-bot-api";
-"type": 'module'
+
 dotenv.config();
 
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
